@@ -8,8 +8,9 @@ Una colección personal de scripts para la automatización de tareas en entornos
 | :--- | :--- | :--- |
 | `add-users.ps1` | 🪟 PowerShell | Creación masiva de usuarios locales en Windows a partir de un archivo `.csv`. |
 | `backup-linux.sh` | 🐧 Bash | Sistema de backups con rotación automática (mantiene los últimos N días). |
-| `check-health.sh` | 🐧 Bash | Monitoreo rápido de CPU, RAM y espacio en disco. |
-| `Sync-Folders.ps1` | 🪟 PowerShell | Sincronización de directorios locales o de red. |
+| `check-services.ps1` | 🪟 PowerShell | Chequear, informar o iniciar servicios de Windows. |
+| `monitor-disk.ps1` | 🪟 PowerShell | Monitoreo rápido de CPU, RAM y espacio en disco. |
+| `rotate-logs.sh` | 🐧 Bash | Gestión de Logs para no colapsar un sistema |
 
 ## 🚀 Scripts Destacados
 
@@ -42,6 +43,6 @@ Para ejecutar scripts descargados, abre PowerShell como administrador y activa l
 
 ## 📝 Notas de Uso
 
-**Seguridad:** Los scripts que manejan contraseñas (como el de creación de usuarios) deben tratarse con precaución. No subas archivos CSV con datos reales al repositorio.
-**Logs:** La mayoría de los scripts generan un archivo .log en la misma carpeta para auditar errores.
+- **Seguridad:** Los scripts que manejan contraseñas (como el de creación de usuarios) deben tratarse con precaución. No subas archivos CSV con datos reales al repositorio.
+- **Logs:** La mayoría de los scripts generan un archivo .log en la misma carpeta para auditar errores.
 
