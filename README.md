@@ -31,10 +31,12 @@ backup-linux.sh realiza una copia comprimida de los directorios seleccionados y 
 
 ### PowerShell (Windows)
 Para ejecutar scripts descargados, abre PowerShell como administrador y activa la política de ejecución:
+- **Uso:** 
   ```powershell
   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### Bash (Linux)
+- **Uso:**
   ```bash
   chmod +x *.sh
 
