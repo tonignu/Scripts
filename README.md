@@ -7,12 +7,12 @@ Una colección personal de scripts para la automatización de tareas en entornos
 | Script | Plataforma | Descripción |
 | :--- | :--- | :--- |
 | `add-users.ps1` | 🪟 PowerShell | Creación masiva de usuarios locales en Windows a partir de un archivo `.csv`. |
-| `backup-linux.sh` | 🐧 Bash | Sistema de backups con rotación automática (mantiene los últimos N días). |
-| `check-services.ps1` | 🪟 PowerShell | Chequear, informar o iniciar servicios de Windows. |
-| `monitor-disk.ps1` | 🪟 PowerShell | Monitoreo rápido de CPU, RAM y espacio en disco. |
-| `rotate-logs.sh` | 🐧 Bash | Gestión de Logs para no colapsar un sistema |
+| `backup-linux.sh` | 🐧 Bash | Backup automatizado con rotación de archivos (mantiene solo los últimos 7 días). |
+| `check-services.ps1` | 🪟 PowerShell | Verifica el estado de una lista de servicios críticos y los reinicia si están caídos. |
+| `monitor-disk.ps1` | 🪟 PowerShell | Monitorea el espacio en disco y genera una alerta visual si el espacio libre es inferior al 10%. |
+| `rotate-logs.sh` | 🐧 Bash | Rotación manual de Logs para evitar que los archivos .log llenen el disco |
 
-## 🚀 Scripts Destacados
+## 🚀 Ejemplos de ejecución
 
 ### 1. Creación masiva de usuarios (Windows)
 El script `add-users.ps1` lee un archivo CSV con columnas `username,password,group` y configura las cuentas automáticamente.
